@@ -97,3 +97,8 @@ python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'
 nvidia-smi
 ```
 This will guide you through setting up TensorFlow with GPU support on Ubuntu.
+
+## Run Script
+``` bash
+python3 tensorFlowChurnTelco.py
+```
