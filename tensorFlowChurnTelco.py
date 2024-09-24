@@ -10,7 +10,7 @@ from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping
 # Step 1: Data Preparation
 
 # Load dataset
-data = pd.read_csv('telcoChurn.csv')  # Replace with the actual path to your dataset
+data = pd.read_csv('telcoChurn.csv')
 
 # Data preprocessing
 # Drop the target column 'Churn' from features and save it as the label
