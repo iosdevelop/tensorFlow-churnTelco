@@ -1,11 +1,11 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
-from keras.utils import to_categorical
+from keras.utils import to_categorical # type: ignore
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Dropout
-from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import Dense, Dropout # type: ignore
+from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping # type: ignore
 
 # Step 1: Data Preparation
 
